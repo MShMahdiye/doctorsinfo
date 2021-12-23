@@ -1,0 +1,53 @@
+/* .drimg{
+  display: block;
+}*/
+.body{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.bigger{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.biggercontain{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.big {
+  width: 350px;
+  height: 250px;
+  margin: 12px;
+  border-radius: 15px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 19px #c5c5c5,
+  -5px -5px 19px #fbfbfbe5;
+  font-family: 'Jomhuria', cursive;
+  cursor: pointer;
+}
+.name{
+  margin: 12px;
+} 
+
+.big:hover{
+  box-shadow: 5px 5px 19px #97d5dd,
+  -5px -5px 19px #ace1e9;
+}
+.speciality{
+  margin: 12px;
+}
